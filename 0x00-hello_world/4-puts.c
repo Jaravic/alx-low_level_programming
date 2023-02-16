@@ -1,10 +1,11 @@
 #include <stdio.h>
 /**
- * main - Pram prints put function
- * Return : 0 (End)
+ * main - Programming prints put function
+ * Return: 0 (Success)
  */
-int  main(void)
+int main(void)
 {
-puts ("\"Programming is like building a multilingual puzzle");
-retutm (0);
+puts("\"Programming is like building a multilingual puzzle");
+retutm(0);
 }
+
