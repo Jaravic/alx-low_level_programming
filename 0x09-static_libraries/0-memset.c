@@ -1,4 +1,5 @@
 #include "main.h"
+<<<<<<< HEAD
 
 /**
  * _memset - fill a block of memory with a specific value
@@ -20,3 +21,14 @@ char *_memset(char *s, char b, unsigned int n)
 	return (s);
 }
 
+=======
+#include <stdio.h>
+#include <stdlib.h>
+#include <ctype.h>
+#include <string.h>
+
+char *_memset(char *s, char b, unsigned int n)
+{
+    return memset(s, b, n);
+}
+>>>>>>> 2985d32da96456fa078737e08a8843a2f0b9a83f

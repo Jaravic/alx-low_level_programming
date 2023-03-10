@@ -1,4 +1,5 @@
 #include "main.h"
+<<<<<<< HEAD
 
 /**
  * *_strstr - function declaration
@@ -46,3 +47,15 @@ char *_strstr(char *haystack, char *needle)
 	}
 	return ('\0');
 }
+=======
+#include <stdio.h>
+#include <stdlib.h>
+#include <ctype.h>
+#include <string.h>
+
+char *_strstr(char *haystack, char *needle)
+{
+    return strstr(haystack, needle);
+}
+
+>>>>>>> 2985d32da96456fa078737e08a8843a2f0b9a83f

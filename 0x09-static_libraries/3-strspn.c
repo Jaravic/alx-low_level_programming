@@ -1,4 +1,5 @@
 #include "main.h"
+<<<<<<< HEAD
 
 /**
  * _strspn - function declaration
@@ -40,4 +41,14 @@ unsigned int _strspn(char *s, char *accept)
 		s++;
 	}
 	return (bytes);
+=======
+#include <stdio.h>
+#include <stdlib.h>
+#include <ctype.h>
+#include <string.h>
+
+unsigned int _strspn(char *s, char *accept)
+{
+    return strspn(s, accept);
+>>>>>>> 2985d32da96456fa078737e08a8843a2f0b9a83f
 }

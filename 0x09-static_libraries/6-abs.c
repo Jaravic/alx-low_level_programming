@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include <stdio.h>
 #include "main.h"
 
@@ -31,4 +32,15 @@ int _abs(int n)
 	{
 		return (n);
 	}
+=======
+#include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <ctype.h>
+#include <string.h>
+
+int _abs(int n)
+{
+    return abs(n);
+>>>>>>> 2985d32da96456fa078737e08a8843a2f0b9a83f
 }
