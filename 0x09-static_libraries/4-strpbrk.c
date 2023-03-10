@@ -1,5 +1,4 @@
 #include "main.h"
-<<<<<<< HEAD
 
 /**
  * *_strpbrk - function declaration
@@ -34,14 +33,4 @@ char *_strpbrk(char *s, char *accept)
 		}
 	}
 	return (0);
-=======
-#include <stdio.h>
-#include <stdlib.h>
-#include <ctype.h>
-#include <string.h>
-
-char *_strpbrk(char *s, char *accept)
-{
-    return strpbrk(s, accept);
->>>>>>> 2985d32da96456fa078737e08a8843a2f0b9a83f
 }

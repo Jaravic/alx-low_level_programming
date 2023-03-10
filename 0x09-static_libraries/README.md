@@ -1,1 +1,1 @@
-0x09. C - Static libraries
+This is the README.md file for static libraries project.

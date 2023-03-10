@@ -1,5 +1,4 @@
 #include "main.h"
-<<<<<<< HEAD
 
 /**
  * _puts - function declaration
@@ -25,14 +24,4 @@ void _puts(char *str)
 		_putchar(*(str + index));
 	}
 	_putchar('\n');
-=======
-#include <stdio.h>
-#include <stdlib.h>
-#include <ctype.h>
-#include <string.h>
-
-void _puts(char *s)
-{
-    puts(s);
->>>>>>> 2985d32da96456fa078737e08a8843a2f0b9a83f
 }
