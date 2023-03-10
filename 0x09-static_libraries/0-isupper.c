@@ -1,5 +1,4 @@
 #include "main.h"
-<<<<<<< HEAD
 
 /**
  * _isupper - function declaration
@@ -27,14 +26,4 @@ int _isupper(int c)
 	{
 		return (0);
 	}
-=======
-#include <stdio.h>
-#include <stdlib.h>
-#include <ctype.h>
-#include <string.h>
-
-int _isupper(int c)
-{
-    return (c >= 'A' && c <= 'Z');
->>>>>>> 2985d32da96456fa078737e08a8843a2f0b9a83f
 }

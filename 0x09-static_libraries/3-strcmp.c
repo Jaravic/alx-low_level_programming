@@ -1,5 +1,4 @@
 #include "main.h"
-<<<<<<< HEAD
 
 /**
  * _strcmp - Compares pointers to two strings.
@@ -21,14 +20,4 @@ int _strcmp(char *s1, char *s2)
 	}
 
 	return (*s1 - *s2);
-=======
-#include <stdio.h>
-#include <stdlib.h>
-#include <ctype.h>
-#include <string.h>
-
-int _strcmp(char *s1, char *s2)
-{
-    return strcmp(s1, s2);
->>>>>>> 2985d32da96456fa078737e08a8843a2f0b9a83f
 }

@@ -1,5 +1,4 @@
 #include "main.h"
-<<<<<<< HEAD
 
 /**
  * _strncat - function declaration
@@ -36,14 +35,4 @@ char *_strncat(char *dest, char *src, int n)
 	dest[dest_index + src_index] = '\0';
 
 	return (dest);
-=======
-#include <stdio.h>
-#include <stdlib.h>
-#include <ctype.h>
-#include <string.h>
-
-char *_strncat(char *dest, char *src, int n)
-{
-    return strncat(dest, src, n);
->>>>>>> 2985d32da96456fa078737e08a8843a2f0b9a83f
 }
