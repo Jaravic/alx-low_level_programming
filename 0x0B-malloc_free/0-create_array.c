@@ -1,18 +1,42 @@
 #include "main.h"
+#include <stdio.h>
 #include <stdlib.h>
 
 /**
- * malloc_checked - Entry Point
- * @b: input amount
- * Return: pointer to new mem
+ * create_array - function declaration
+ * @size: size of array
+ * @c: char to initialize array
+ * Return: a char value
  */
-void *malloc_checked(unsigned int b)
+
+char *create_array(unsigned int size, char c);
+
+/**
+ * create_array - function definition
+ * Description: create an array of chars and
+ * initilize with char c
+ * @size: size of array to create
+ * @c: char to initialize array with
+ * Return: char value
+ */
+char *create_array(unsigned int size, char c)
 {
-	void *n;
+	char *array;
+	unsigned int index;
 
-	n = malloc(b);
+	if (size <= 0)
+	{
+		return (NULL);
+	}
+	array = malloc(sizeof(char) * size);
+	if (array == NULL)
+	{
+		return (NULL);
+	}
+	for (index = 0; index < size; index++)
+	{
+		array[index] = c;
+	}
 
-	if (n == NULL)
-		exit(98);
-	return (n);
+	return (array);
 }
